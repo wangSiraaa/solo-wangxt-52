@@ -1,0 +1,24 @@
+# Local dependencies and generated compiler state
+node_modules/
+*.tsbuildinfo
+
+# Local environment and connection settings (keep documented examples)
+.env
+.env.*
+!.env.example
+*.local
+
+# Credentials and private material
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials.json
+secrets.json
+
+# Test/editor caches
+.vite/
+coverage/
+.DS_Store
